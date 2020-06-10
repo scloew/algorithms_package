@@ -1,6 +1,7 @@
 """utility functions for generating random graphs"""
 
 from random import randint
+from collections import OrderedDict
 
 
 def build_weighted_graph(num_nodes=10, min_edges=1, max_edges=2):
